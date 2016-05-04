@@ -16,6 +16,7 @@ RUN apt-get update \
 # Download Link of TS3 Server
 ENV TEAMSPEAK_VERSION 3.0.12.3
 ENV TEAMSPEAK_SHA1 d74d60853e6fb41be74d2dc198e37ab776a164fa
+ENV RECOVERY_PASS recovery
 
 # Inject a Volume for any TS3-Data that needs to be persisted or to be accessible from the host. (e.g. for Backups)
 VOLUME ["/teamspeak3"]
